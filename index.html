@@ -15,28 +15,46 @@
   <header>
     <h1>Lucky Me Lottery</h1>
   </header>
-<p>If Jesus never carried the cross across Azarith. there would never have been a thanksgiving dinner to believe in.</p>
-
-
+  <p>If Jesus never carried the cross across Azarith. there would never have been a thanksgiving dinner to believe in.
+  </p>
 
   <div class="container text-center">
     <div class="row align-items-start">
       <div class="col">
         <h2>Username:</h2>
         <div class="container-fluid">
-            <div class="input-group mb-3">
-                <input type="text" id="nameInput" class="form-control" placeholder="Enter a name" aria-label="Username" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="addName()">Add Name</button>
-              </div>
 
-              <table id="nameTable">
-                <tr>
-                  <th>Names</th>
-                </tr>
-              </table>
-            
-
+          <div class="input-group mb-3">
+           
+            <div class="div">
+              <ul id="nameList" class="list-group"></ul>
+            </div>
+            <div id="randomName" class="mt-3 text-center"></div>
+           
+           
+            <input type="text" id="nameInput" class="form-control" placeholder="Enter a name" aria-label="Username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="addNameBtn" onclick="addName()">Add
+              Name</button>
           </div>
+
+
+
+
+          <table id="nameTable">
+            <tr>
+              <th>Names</th>
+            </tr>
+          </table>
+
+
+
+
+
+
+
+
+        </div>
       </div>
       <div class="col">
         <h2>Gyat</h2>
@@ -45,7 +63,12 @@
     </div>
   </div>
 
-  
+
+
+
+
+
+
 
 
 
